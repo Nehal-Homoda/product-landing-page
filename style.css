@@ -1,0 +1,93 @@
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #eee;
+}
+#header {
+  display: flex;
+  gap: 500px;
+  margin-top: 20px;
+}
+#header img {
+  width: 280px;
+  height: 30px;
+  margin-left: 15px;
+}
+nav a {
+  color: black;
+  text-decoration: none;
+  margin-left: 80px;
+  font-size: 15px;
+}
+#email {
+  margin-left: 400px;
+  margin-top: 40px;
+  line-height: 40px;
+}
+#email header {
+  font-size: larger;
+}
+.email {
+  display: block;
+  width: 270px;
+  height: 20px;
+  margin-left: 70px;
+}
+.submit {
+  margin-left: 140px;
+  background-color: rgba(255, 187, 0, 0.726);
+  border: none;
+  width: 150px;
+  height: 30px;
+  font-weight: bolder;
+  font-size: 15px;
+}
+#features {
+  margin-top: 100px;
+}
+#Premium-Materials {
+  display: flex;
+  justify-content: center;
+  /* jamal */
+  margin-left: -100px;
+}
+#Premium-Materials img {
+  width: 40px;
+  height: 60px;
+}
+#fast-shipping {
+  display: flex;
+  justify-content: center;
+  margin-left: 60px;
+ 
+}
+
+#fast-shipping img {
+  width: 40px;
+  height: 60px;
+}
+#quality-assurance {
+  display: flex;
+  justify-content: center;
+  margin-left: 60px;
+ 
+}
+#quality-assurance img {
+  width: 40px;
+  height: 60px;
+}
+#video{
+    margin-top:50px;
+   margin-left:350px;
+}
+#prices {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+}
+#prices article {
+  border: 1px solid black;
+  width: 300px;
+}
+#footer {
+  display: flex;
+}
